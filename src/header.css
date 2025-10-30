@@ -1,0 +1,50 @@
+.cabecera {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.contenedorLogo {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 20%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+.textoLogo {
+  margin-left: 10px;
+}
+
+.menu {
+  display: flex;
+  justify-content: end;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.menu a {
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+}
