@@ -1,10 +1,14 @@
 import './mainv2.css'
+import foto1 from '/img/mircea-solomiea-bbDIL8i2GFo-unsplash.jpg'
+import foto2 from '/img/github.png'
+import foto3 from '/img/in.png'
+
 
 function Mainv2() {
   return (
-    <main className="hero">
+    <main className="hero1">
       <div className="imagen">
-        <img src="./img/mircea-solomiea-bbDIL8i2GFo-unsplash.jpg" alt="Imagen de fondo" />
+        <img src={foto1} alt="Imagen de fondo" />
       </div>
 
       <div className="contenido">
@@ -16,8 +20,8 @@ function Mainv2() {
         </p>
 
         <div className="imagenes">
-          <img src="./img/github.png" alt="GitHub" />
-          <img src="./img/in.png" alt="LinkedIn" />
+          <img src={foto2} alt="GitHub" />
+          <img src={foto3} alt="LinkedIn" />
         </div>
 
         <button className="boton1">Ver mis Proyectos</button>
